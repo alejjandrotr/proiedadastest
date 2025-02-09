@@ -8,9 +8,18 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+  cloud:
+    vault:
+      application-name: service
+      host: localhost
+      port: 8200
+      scheme: http
+      authentication: TOKEN
+      token: 00000000-0000-0000-0000-000000000000
 
 server:
   port: 8087
 
 app:
   nombre: Alejandro
+
