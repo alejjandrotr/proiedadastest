@@ -1,0 +1,10 @@
+booking:
+  property: Suplier dev  Updated
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/supplierDBTest?createDatabaseIfNotExist=true
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
